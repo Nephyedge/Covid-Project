@@ -15,11 +15,6 @@ To run the scripts, you need to have Python installed on your system along with 
 - seaborn
 - matplotlib
 
-You can install these libraries using pip:
-
-```bash
-pip install pandas numpy seaborn matplotlib
-
 ## Analysis
 Exploratory Data Analysis (EDA)
 The provided Python script conducts exploratory data analysis on the COVID-19 dataset, including:
@@ -27,7 +22,15 @@ The provided Python script conducts exploratory data analysis on the COVID-19 da
 Checking basic statistics using data.describe().
 Identifying missing values using data.isnull().sum().
 Visualizing relationships between variables using various plots such as scatter plots, histograms, boxplots, and count plots.
-Results
+
+## Results
 Visualizations of COVID-19 data distributions.
 Bar plot showing the number of recoveries by country/region.
 Heatmap of correlation matrix between different variables.
+
+
+You can install these libraries using pip:
+
+```bash
+pip install pandas numpy seaborn matplotlib
+
